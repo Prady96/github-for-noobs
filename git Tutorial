@@ -1,0 +1,97 @@
+Git Commands Practise
+
+# check git is there
+$ git --version
+
+# Setting configration Files
+$ git config --global user.name "Pradyum Gupta"
+$ git config --global user.email "pradyumg@gmail.com"
+$ git config --list
+
+# In a new folder initialise it with git
+$ git init
+
+# Make gitignore file from this link specifying things to be used
+https://www.gitignore.io/
+
+# In git there are three Stages remember while working
+working Directories
+Staging Area
+.git directory
+
+#1 When we are working with Working Directories we have not commited the status
+#2 Commited status -> Staging Area
+#3 Push -> .git Directories
+
+#1 Working Directories
+  #Check file status before moving forward
+    $ git status
+
+  $ git add [fileName]
+  $ git add -A
+  $ git status
+  # git reset
+
+#2
+  $ git commit -m "give appropirite message"
+  $ git status
+  $ git log
+
+#3
+  $ git clone <url>
+  $ git remote -v
+  $ git branch -a
+
+PUSSHING CHANGES
+  $ git diff
+  $ git status
+  $ git add -A
+  $ git commit -m "Modified file"
+
+THEN Push
+  $ git pull origin master
+  $ git push origin master
+
+
+COMMON WORKFLOW FOR BRANCHING STRUCTURE
+
+# considering [branch-name] as calc-divide
+
+  $ git branch [branch-name] or git branch calc-divide # create new branch
+  $ git checkout calc-divide # changing branch
+  $ git branch # list all branches
+  $ git commit -m "new commit in calc-divide" # commit in the new branches
+  $ git push -u origin calc-divide # pushing the file in calc-divide
+  $ git branch -a # list all branches
+  $ git checkout master # change to master
+  $ git pull origin master # pull from origin master
+  $ git branch --merged # list all the merged branches
+  $ git merge calc-divide # merging this branch in master branch
+  $ git push origin master # push the master branch
+
+# deleting the repo
+
+  $ git branch -d calc-divide
+  $ git branch -a
+  $ git push origin --delete calc-divide
+  $ git branch -a
+
+
+# Faster Example
+
+  $ git branch subtract
+  $ git checkout subtract
+  $ git status
+  $ git add -A
+  $ git commit -m "Subtract function"
+  $ git push -u origin subtract
+  $ git checkout master
+  $ git pull origin master
+  $ git checkout master
+  $ git merge subtract
+  $ git push origin master
+
+
+# If got Stuck Someware check out help Commands
+$ git config --help
+$ git add --help
