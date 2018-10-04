@@ -95,3 +95,19 @@ COMMON WORKFLOW FOR BRANCHING STRUCTURE
 # If got Stuck Someware check out help Commands
 $ git config --help
 $ git add --help
+
+
+Download Framework to manage git/bitbucket
+$ sudo apt-get install flow
+
+
+
+
+
+
+
+
+
+
+
+
