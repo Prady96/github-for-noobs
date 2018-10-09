@@ -101,6 +101,20 @@ Download Framework to manage git/bitbucket
 $ sudo apt-get install flow
 Refer to link https://gist.github.com/seyhunak/0d4694fff198018ee5c4
 
+#sudo bash
+```
+# git flow init
+# git clone <link Name>
+# git branch <check branch name>
+# git checkout develop<switch to branch name>
+# git pull origin develop
+# cd <folder name>
+# git add .
+# git commit -m "Message name"
+# git pull origin develop
+# git push origin develop
+```
+
 
 
 
