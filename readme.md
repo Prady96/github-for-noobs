@@ -17,7 +17,10 @@
 ####6. git remote -v
 ####7. git push origin master
 'Note: here master is the branch'
-'Now from here '
+'Now if everythig is working fine then it will ask for'
+'Username for 'https://github.com': Pradyum Gupta
+Password for 'https://Pradyum Gupta@github.com': Enter the passcode'
 
+####Success remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 
 
