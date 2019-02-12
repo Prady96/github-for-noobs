@@ -1,27 +1,57 @@
-### Main commands used in git
+Main commands used in git ( Git tutorial)
+==========================
 
-## Git tutorial
+---
+In case
+**For a New Folder**
+```
+git init / git flow init
+```  
 
-### Main commands used in git
+_from the url copy the git url_
+```
+git clone url
+```
 
-#### 1. git clone with .git
-'from the url copy the git url and put .git in the end'
-#### 2. git status
-'Add or Modified file from here as shown'
-####+. git add -a
-'Add the code in the repo'
-#### 3. git commit -a -m "Write down the message here"
-'write down the message here'
-#### 4. git log
-'check out the git log from here'
-#### 5. git remote
+_to look for the branch name_
+```
+git branch
+```
+
+_to change branch_
+```
+git checkout develop
+```
+
+_Add or Modified file from here as shown_
+```
+git add .
+```
+
+_check the status of the file_
+```
+git status
+```
+
+_Add the code in the repo_
+```
+git commit -a -m "Write down the message here"
+```
+
 'here remote is github'
 'So the output here is the origin'
 'if you want to find about the origin then put -v(verbose)'
-#### 6. git remote -v
-#### 7. git push origin master
-'Note: here master is the branch'
+```
+git remote
+```
+
+```
+git push origin master/name_of_branch
+```
+**Note: here master is the branch**
+
 'Now if everythig is working fine then it will ask for'
+
 'Username for 'https://github.com': Pradyum Gupta
 Password for 'https://Pradyum Gupta@github.com': Enter the passcode'
 
